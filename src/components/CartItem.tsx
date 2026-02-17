@@ -27,6 +27,7 @@ export default function CartItem({
           src={image}
           alt={name}
           fill
+          priority
           className="object-cover rounded-md"
         />
       </div>

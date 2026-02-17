@@ -18,6 +18,7 @@ export default function ProductCard({ product }: Props) {
           src={product.image}
           alt={product.name}
           fill
+          priority
           className="object-cover rounded-md"
         />
       </div>

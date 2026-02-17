@@ -93,6 +93,7 @@ export default function Page() {
                 src={`/images/products/${img}`}
                 alt="Store product"
                 fill
+                priority
                 className="object-cover hover:scale-110 transition duration-500"
               />
             </motion.div>
